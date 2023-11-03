@@ -17,7 +17,7 @@ fah.addEventListener('input', function(){
     let c = (f- 32) * 5/9 ;
   
     if(!Number.isInteger(c)){
-        c = c.toFixed(1);
+        c = c.toFixed(3);
     }
     cel.value = c;
 })
